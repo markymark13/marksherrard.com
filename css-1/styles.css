@@ -1,0 +1,185 @@
+/* Mark's custom styles
+-------------------------------------------------- */
+@font-face {
+font-family: 'Simplifica';
+src: URL('Simplifica.ttf') format ('ttf');
+}
+
+html,
+body {
+  height: 100%;
+  font-family: 'Lato', 'Open Sans';
+background-color: #f5f4f0;
+font-size: 16px;
+  /* The html and body elements cannot have any padding or margin. */
+}
+a {
+    border-bottom: 1px solid #0C0C0C ;
+    color: #444;
+    text-decoration: none;
+}
+
+a:hover {
+    border-bottom: 1px solid #000;
+    color: black;
+   
+    text-decoration: none;
+}
+
+a:focus {
+    border-bottom: 2px solid #0C0C0C;
+    color: #444;
+    text-decoration: none;
+}
+h2
+{
+  font-family: "Unica One";
+
+  font-weight: 100;
+  font-size: 40px;
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+  height: 30px;
+
+margin-left: auto;
+margin-right: auto;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.container {
+  margin-top: 20px;
+  width: auto;
+  max-width: 1080px;
+  padding: 20px;
+  background-color: #f5f4f0;
+  border-radius: 10px;
+
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+
+/* old nav 
+
+  <div id="nav-wrapper">
+      Mark Sherrard
+  <ul id="nav">
+
+    <li class="active"><a href="">Home</a></li>
+    <li><a href="">Employement</a></li>
+    <li><a href="">Education</a></li>
+    <li><a href="">Projects</a></li>
+    <li><a href="">Photos</a></li>
+  </ul>
+</div>
+/* -------------------- Navigation -------------------- */
+/* -------------------- Hyperlinks -------------------- */
+#nav-wrapper {
+width:500px;
+margin:0 auto;
+}
+
+ul#nav {
+font-size:12px;
+list-style:none;
+overflow: auto;
+  padding-right: 10px;
+
+}
+
+ul#nav li {
+display:inline;
+padding-right: 10px;
+text-align: right;
+}
+
+ul#nav li a {
+text-decoration:none;
+display: block;
+margin-right: 10px;
+
+color:#000;
+float:left;
+text-align:right;
+}
+
+
+
+#nav .nav_item a {
+  display: inline-block;
+
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  padding-bottom: 1px;
+  
+  line-height: 12px;
+}
+
+#nav .nav_item a:hover, #nav .nav_item a.selected {
+  border-bottom: 1px solid #000;
+}
+#bar {
+height: 30px;
+background-color: #940229;
+width: 100%;
+margin-right: auto;
+margin-left: auto;
+}
+
+
+    #left {
+    float:left;
+    width:300px;
+      
+
+    }
+    #right {
+    float:right;
+    width:450px;
+    text-align: center;
+ 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
+
+h1 a, h2 a, h3 a {
+  padding-bottom: 2px;
+  margin-bottom: -2px;
+}
+
+
+
+ul#nav li.active a{
+  font-weight:normal;
+
+border-bottom:thick solid #940229;
+ 
+color:#940229;
+}
+
+i {
+  padding: 10px;
+}
+
+ul#nav li a:hover {
+border-bottom:thick solid #000;
+color:#000;
+
+}

@@ -13,12 +13,12 @@ $ZIP = $_POST["postal_code"];
 $Area = mysqli_real_escape_string($connect, $_POST["neighborhood"]);
 $Rating = 0;
 $Price = $_POST["price_level"];
-$Notes = NULL;
+$Notes = mysqli_real_escape_string($connect, $_POST["notes"]);
 $wishlist = 0;
 
 
  $query = "
-INSERT INTO `$database`.`Place` (`ID`, `Name`, `Type`, `Food`, `Address`, `City`, `State`, `Zip`, `Area`, `Price`, `Date Added`, `Notes`, `wishlist`, `lat`, `lng`, `googlePlaceID`) 
+INSERT INTO `$database`.`Place` (`ID`, `Name`, `Type`, `Food`, `Address`, `City`, `State`, `Zip`, `Area`, `Price`, `Date Added`, `Notes`, `wishlist`, `lat`, `lng`, `googlePlaceID`, `url`) 
 VALUES (
 NULL, 
 '$Name',
@@ -35,7 +35,8 @@ NULL,
 '$wishlist', 
 '".$_POST['lat']."',
 '".$_POST['lng']."',
-'".$_POST['place_id']."'
+'".$_POST['place_id']."',
+'".$_POST['url']."'
 );";
 
   mysqli_query($connect, $query);

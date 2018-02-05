@@ -11,21 +11,15 @@ include ("header.php");
             <label class="col-sm-3 control-label">Cuisine</label>
             <div class="col-sm-5">
               <select class="form-control" name="food">
-                <option>American</option>
-                <option>BBQ</option>
-                <option>Brewery</option>
-                <option>Chinese</option>
-                <option>Mexican</option>
-                <option>Peruvian</option>
-                <option>Hungarian</option>
-                <option>Indian</option>
-                <option>Turkish</option>
-                <option>Spanish</option>
-                <option>Pub</option>
-                <option>Pizza</option>
-                <option>Italian</option>
-                <option>Sushi</option>
-                <option>Thai</option>
+                <?php
+
+                  $Cuisine = array("American", "BBQ", "Brewery", "Chinese", "Mexican", "Peruvian", "Hungarian", "Indian", "Spanish", "Pizza", "Italian","Japanese/Sushi", "Thai", "French ", "Mediterranean", "Lebanese", "German", "Korean", "Soul");
+                  sort($Cuisine);
+                  foreach ($Cuisine as $key => $val) {
+                      echo "<option>".$val."</option>";
+                  }
+
+                  ?>
                 <option>Other</option>
               </select>
             </div>

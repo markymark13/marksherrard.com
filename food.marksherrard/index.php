@@ -44,7 +44,22 @@ $query=mysqli_query($connect,"SELECT * FROM `Place` Order by ID Desc");
             }
             ?>
             | 
-            <?php echo $Food ?> <i><a href='http://www.maps.google.com/maps?q=<?php echo $row["Address"] ?>'>
+            <?php echo $Food ?> <i>
+
+                                <?php if(empty($row["url"]) ) {
+                                echo "<a href='http://www.maps.google.com/maps?q=";
+                                echo $row["Address"];
+                                echo "'>";
+                                }
+                                else
+                                {
+                                echo "<a href='";
+                                echo $row["url"];
+                                echo "'>";
+                                }
+                                ?>
+
+                             
               
               <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
               

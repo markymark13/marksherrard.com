@@ -110,4 +110,4 @@ for ($lcnt = 0; $lcnt < $mrk_cnt; $lcnt++)
   
   
 
- <?php include ("header.php"); ?>
+ <?php include ("footer.php"); ?>

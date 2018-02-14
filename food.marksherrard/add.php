@@ -48,6 +48,8 @@ include ("header.php");
               <input id="url" name="url" type="hidden">
               <input id="lat" name="lat" type="hidden">
               <input id="lng" name="lng" type="hidden">
+              <input id="types" name="types" type="hidden">
+              <input id="icon" name="icon" type="hidden">
             </div>
           </fieldset>
           <fieldset>
@@ -73,6 +75,7 @@ include ("header.php");
 <!-- Include Google Maps JS API -->
 <script type="text/javascript"
 src="https://maps.googleapis.com/maps/api/js?libraries=places&amp;key=AIzaSyAyEwCPeqnt5XTgFRUOXF1VKabD5ho9Swo "></script>
+<!-- to test: https://maps.googleapis.com/maps/api/place/details/json?placeid=[place id]&key=[api key]
 <!-- Custom JS code to bind to Autocomplete API -->
 <script type="text/javascript" src="js/autocomplete.js"></script>
 </body>

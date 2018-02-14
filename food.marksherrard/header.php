@@ -9,10 +9,13 @@
       <!-- CSS -->
 	  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+
 	  <link href="css/styles.css" rel="stylesheet" media="screen">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="js/foursquare.js"></script>
+
   </head>
   <body>
     <nav class="navbar navbar-default navbar-static-top" role="navigation">
@@ -20,7 +23,8 @@
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
           <a class="navbar-brand" href="index.php">
-             <img alt="Brand" src="images/icon.png" height="30px">
+             <!-- <img alt="Brand" src="images/icon.png" height="30px"> -->
+             <i class="fas fa-utensils" style="color: black;"></i>
           </a>
              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span>
 			 <span class="icon-bar"></span>

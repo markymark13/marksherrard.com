@@ -27,6 +27,8 @@ function onPlaceChanged() {
   document.getElementById('place_id').value = place.place_id;
   document.getElementById('url').value = place.url;
   document.getElementById('formatted_address').value = place.formatted_address;
+  document.getElementById('types').value = place.types;
+  document.getElementById('icon').value = place.icon;
 }
 
 google.maps.event.addDomListener(window, 'load', function() {

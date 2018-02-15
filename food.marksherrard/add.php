@@ -80,3 +80,4 @@ src="https://maps.googleapis.com/maps/api/js?libraries=places&amp;key=AIzaSyAyEw
 <script type="text/javascript" src="js/autocomplete.js"></script>
 </body>
 </html>
+<?php include ("footer.php"); ?>

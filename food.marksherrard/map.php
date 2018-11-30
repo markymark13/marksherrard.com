@@ -85,14 +85,14 @@ for ($lcnt = 0; $lcnt < $mrk_cnt; $lcnt++)
         content: mrktx$lcnt
       });";
     echo "var marker$lcnt = new google.maps.Marker({position: point$lcnt, map: map});\n";
-    echo "google.maps.event.addListener(marker$lcnt, 
-         'mouseover', function() {
-           infowindow$lcnt.open(map,marker$lcnt);
-          });\n";
-     echo "google.maps.event.addListener(marker$lcnt, 
-         'mouseout', function() {
-           infowindow$lcnt.close(map,marker$lcnt);
-          });\n";
+    // echo "google.maps.event.addListener(marker$lcnt, 
+    //      'mouseover', function() {
+    //        infowindow$lcnt.open(map,marker$lcnt);
+    //       });\n";
+    //  echo "google.maps.event.addListener(marker$lcnt, 
+    //      'mouseout', function() {
+    //        infowindow$lcnt.close(map,marker$lcnt);
+    //       });\n";
 }
 ?>
 }

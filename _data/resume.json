@@ -1,0 +1,182 @@
+{
+  "basics": {
+    "name": "Mark K. Sherrard",
+    "email": "mksherrard@gmail.com",
+    "phone": "(650) 799-9658",
+    "url": "https://www.marksherrard.com",
+    "location": {
+      "region": "Remote / Denver, CO"
+    },
+    "summary": "Director of Product Management with 10+ years experience leading B2B SaaS teams, delivering high-impact initiatives across government programs, logistics, and enterprise integrations. Proven track record scaling products from startup to enterprise with measurable revenue impact."
+  },
+  "work": [
+    {
+      "name": "Neighborly Software",
+      "website": "https://www.neighborlysoftware.com",
+      "position": "Director, Product Management (promoted from Sr. Product Manager)",
+      "startDate": "2024",
+      "endDate": "present",
+      "summary": "Built entire DOE Home Energy Rebates Program from ground up, managing technical PNNL API integration and state compliance requirements. Promoted to lead team of 4 product managers driving strategic initiatives.",
+      "highlights": [
+        "Built complete DOE Home Energy Rebates Program enabling $218M in active rebates and $5M ARR growth",
+        "Managed technically complex PNNL API integration and state-specific program requirements compliance",
+        "Opened $1B+ pipeline through strategic partnerships with Guidehouse and technical program delivery",
+        "Promoted to lead product team of 4 PMs, accelerating delivery and increasing internal visibility",
+        "Drive product council reviews with executives and board members for high-impact initiatives",
+        "Led team delivery of major enterprise projects including IDIS integration, Ingo payments, and re-architecture of Neighborly's core platform to microservices",
+        "Champion quick-win features like e-signatures and document viewers through cross-functional coordination",
+        "Participated closely in expansion to new markets like Housing Choice Vouchers"
+      ]
+    },
+    {
+      "name": "Parade.ai",
+      "website": "https://www.parade.ai",
+      "position": "Sr. Product Manager",
+      "startDate": "2022",
+      "endDate": "2023",
+      "summary": "Defined integration and onboarding roadmap to accelerate customer time-to-value. Improved business processes through data-driven approaches and API reliability enhancements.",
+      "highlights": [
+        "Decreased average customer onboarding time by 40 days through process optimization",
+        "Assisted 80+ customer onboardings generating $2.3M+ in company revenue",
+        "Increased TMS integration reliability by prioritizing API, RPA, and cloud infrastructure improvements",
+        "Managed and documented custom implementations for complex customer configurations",
+        "Partnered with engineering teams to deliver scalable solutions across client base"
+      ]
+    },
+    {
+      "name": "Sendoso",
+      "website": "https://www.sendoso.com",
+      "position": "Sr. Product Manager (promoted from Product Manager II)",
+      "startDate": "2018",
+      "endDate": "2022",
+      "summary": "First Product Manager at Sendoso, led strategic direction of logistics and fulfillment software during rapid company scaling from 12 to 600+ employees and $0 to $150M+ funding.",
+      "highlights": [
+        "Developed proprietary order management system integrating 300K+ orders across domestic and international warehouses",
+        "Reduced average warehouse SLA time-to-ship from 3.1 to 1.79 days, contributing to $7.8M+ in customer platform spend",
+        "Implemented enterprise-grade WMS using SFTP, API, and XML integrations with comprehensive training and documentation",
+        "Created Universal Products feature decreasing average time to first send by 33%",
+        "Integrated Shopify Checkout API enabling $8M+ in additional third-party product fulfillment",
+        "Completed 750+ Jira stories, tasks, and bugs while managing overseas engineering teams"
+      ]
+    },
+    {
+      "name": "Brightfunnel",
+      "acquiredBy": "Terminus",
+      "website": "https://www.brightfunnel.com",
+      "position": "Solutions Architect Team Lead",
+      "startDate": "2016",
+      "endDate": "2018",
+      "summary": "Led customer implementation team and reduced deployment timelines by 67%. Managed technical solutions architecture and pre-sales engineering for marketing attribution platform.",
+      "highlights": [
+        "Delivered 100+ successful implementations while reducing average time from 90 to 30 days",
+        "Built custom configurations using SQL, JSON, and Salesforce expertise for complex client requirements",
+        "Provided pre-sales engineering and solution architecture in customer meetings",
+        "Managed team of customer success engineers responsible for technical assistance and support",
+        "Performed data analysis providing value-add insights that drove product development decisions"
+      ]
+    },
+    {
+      "name": "Starwood Waypoint Residential Trust",
+      "acquiredBy": "Invitation Homes",
+      "website": "https://www.invh.com",
+      "position": "Product Manager II",
+      "startDate": "2014",
+      "endDate": "2016",
+      "summary": "Designed and implemented resident portal serving 10K+ monthly users with 110% usage increase. Managed development team and Salesforce platform for 500+ users.",
+      "highlights": [
+        "Built best-in-industry web portal using Bootstrap, JavaScript, HTML5, CSS3, and Salesforce Communities",
+        "Increased resident portal usage by 110% through enhanced user experience and functionality",
+        "Integrated dual Single Sign-On providers for seamless payments and rewards redemption",
+        "Created custom Waypoint Reward Points platform for resident engagement",
+        "Managed 6 developers (5 offshore, 1 in-house) completing 50+ revenue-related projects",
+        "Administered Salesforce platform with 500+ users, 242 custom objects, 1,643 Apex classes, and 278 triggers"
+      ]
+    },
+    {
+      "name": "InsideView",
+      "acquiredBy": "DemandBase",
+      "website": "https://www.insideview.com",
+      "position": "Business Operations Analyst",
+      "startDate": "2013",
+      "endDate": "2014",
+      "summary": "Analyzed business operations and supported data-driven decision making during early career development at sales intelligence platform.",
+      "highlights": [
+        "Supported business operations analysis and process optimization",
+        "Contributed to data-driven insights for operational improvements"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Denver, Daniels College of Business",
+      "area": "Business Information Technology and Analytics",
+      "studyType": "B.A.",
+      "endDate": "2013",
+      "additionalInfo": "Minor in Statistics"
+    },
+    {
+      "institution": "Saint Francis High School",
+      "location": "Mountain View, CA",
+      "endDate": "2009"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Technical",
+      "keywords": [
+        "SQL",
+        "PHP",
+        "HTML",
+        "CSS",
+        "SFTP",
+        "XML",
+        "JSON",
+        "API",
+        "Database Architectures",
+        "ERD",
+        "Agile Methodologies",
+        "PNNL Integration",
+        "e-Signature Implementation"
+      ]
+    },
+    {
+      "name": "Tools",
+      "keywords": [
+        "Metabase",
+        "ChatGPT",
+        "Salesforce.com",
+        "Koerber Highjump WMS",
+        "Marketo",
+        "Jira",
+        "Shopify",
+        "Zendesk",
+        "Slack",
+        "GitHub",
+        "Asana",
+        "Pivotal Tracker",
+        "Microsoft Office",
+        "TMS",
+        "Google Cloud Platform",
+        "RPA"
+      ]
+    },
+    {
+      "name": "Product & Leadership",
+      "keywords": [
+        "Product Strategy",
+        "Roadmap Development",
+        "SaaS Implementations & Onboarding",
+        "Government-Funded Programs (HUD, CDBG, Section 8, DOE)",
+        "Regulatory Compliance",
+        "Logistics",
+        "Fulfillment",
+        "Supply Chain",
+        "Data Analysis",
+        "Professional Services",
+        "Customer Success",
+        "Leadership",
+        "Cross-Functional Collaboration"
+      ]
+    }
+  ]
+}

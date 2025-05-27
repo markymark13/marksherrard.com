@@ -1,0 +1,14 @@
+[
+  {
+    "website": "https://elizabethroseflorals.com",
+    "title": "Elizabeth Rose Florals",
+    "description": "A wedding and event florist based in Colorado, specializes in creating stunning floral arrangements for weddings and events.",
+    "active": true
+  },
+  {
+    "website": "https://weekendti.me",
+    "title": "Weekend Time",
+    "description": "Weekend Time is a countdown until the weekend. What's better than the weekend?",
+    "active": true
+  }
+]
